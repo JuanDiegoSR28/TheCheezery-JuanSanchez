@@ -12,7 +12,15 @@ import androidx.core.view.WindowInsetsCompat
 class MenuActiviity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_menu)
+
+        var btnCold: Button = findViewById(R.id.button_cold_drinks) as Button
+
+
+        btnCold.setOnClickListener{
+            var intent: Intent = Intent(this,ProductosActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }

@@ -21,39 +21,39 @@
         android:id="@+id/name_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
         android:hint="@string/name"
         android:inputType="text"
-        android:layout_marginTop="@dimen/input_margin"
 
-        />
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/last_name_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
         android:hint="@string/last_name"
         android:inputType="text"
-        android:layout_marginTop="@dimen/input_margin"
-        />
+        android:minHeight="48dp" />
 
 
     <EditText
         android:id="@+id/email_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="@dimen/input_margin"
-        />
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/password_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margin"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:layout_marginTop="@dimen/input_margin"
-        />
+        android:minHeight="48dp" />
     
     <CheckBox
         android:layout_width="match_parent"
@@ -62,16 +62,16 @@
         android:layout_marginTop="@dimen/input_margin"
         android:textStyle="italic"
         />
+
     <Button
         android:id="@+id/sign_in_button"
         android:layout_width="219dp"
-        android:layout_height="33dp"
+        android:layout_height="48dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:text="@string/sign_in"
-        android:textColor="@color/dusty_white"
         android:background="@drawable/round_button"
-        />
+        android:text="@string/sign_in"
+        android:textColor="@color/dusty_white" />
 
 
 </LinearLayout>

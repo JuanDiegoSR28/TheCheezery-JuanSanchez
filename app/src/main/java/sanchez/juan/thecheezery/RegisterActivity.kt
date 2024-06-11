@@ -11,8 +11,8 @@ import androidx.core.view.WindowInsetsCompat
 class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val button: Button = findViewById(R.id.sign_in_button) as Button
+        setContentView(R.layout.activity_register)
+        val button: Button = findViewById(R.id.sign_in_button)
         button.setOnClickListener()
         {
             var intent: Intent = Intent(this, MenuActiviity::class.java)
